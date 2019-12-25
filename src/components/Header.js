@@ -5,7 +5,7 @@ import { AppBar } from '@material-ui/core';
 
 const styles = theme => ({
     nav: {
-        background: "#1f1f1f",
+        background: "#121212",
         // boxShadow: "none",
         marginBottom: "15px",
     },
@@ -46,9 +46,9 @@ class Header extends Component{
                             <li className = {classes.nav_item} key={"About Me"}>
                                 <Link className={classes.nav_link} to={`/about-me`}>About Me</Link>
                             </li>
-                            <li className = {classes.nav_item} key={"Education"}>
+                            {/* <li className = {classes.nav_item} key={"Education"}>
                                 <Link className={classes.nav_link} to={`/education`}>Education</Link>
-                            </li>
+                            </li> */}
                             <li className = {classes.nav_item} key={"Projects"}>
                                 <Link className={classes.nav_link} to={`/projects`}>Projects</Link>
                             </li>
