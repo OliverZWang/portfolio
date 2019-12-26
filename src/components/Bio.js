@@ -42,7 +42,7 @@ class Bio extends Component {
                         AvatarSrc={'./interests.jpg'}
                         Primary={"When I'm Not a Programmer"}
                         Line1={"Experienced Martial Artist"}
-                        Line2={"Triathlete in the making"}> </AboutMeItems>
+                        Line2={"Triathlete in the Making"}> </AboutMeItems>
                     <AboutMeItems
                         AvatarAlt={'Activity'}
                         AvatarSrc={'./pride.jpg'}

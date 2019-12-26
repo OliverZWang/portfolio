@@ -35,20 +35,6 @@ class Skills extends Component{
         }
     }
 
-    showSkills(){
-        return(
-            this.state.skills.map(skill=>
-                <Grid item xs={4} sm={4} md={3}>
-                        <Card>
-                            <CardContent>
-                                <Typography variant="body1">123</Typography>
-                            </CardContent>
-                        </Card>
-                </Grid>
-            )
-        )
-    }
-
     render(){
 
         const {classes} = this.props; 
@@ -63,7 +49,7 @@ class Skills extends Component{
                 <Grid className={classes.gridContainer} container spacing={6}>
 
                     {this.state.skills.map(skill=>
-                        <Grid item xs={4} sm={4} md={3}>
+                        <Grid item xs={12} sm={6} md={3}>
                                 <Card>
                                     <CardContent>
                             <Typography variant="body1">{skill}</Typography>
