@@ -5,10 +5,6 @@ import Container from '@material-ui/core/Container';
 import NameCard from './NameCard'; 
 import Bio from './Bio';
 import Skills from './Skills.js'
-import MuiExpansionPanel from '@material-ui/core/ExpansionPanel';
-import MuiExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
-import MuiExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
-import Typography from '@material-ui/core/Typography';
 
 
 
