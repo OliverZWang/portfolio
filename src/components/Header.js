@@ -65,4 +65,4 @@ class Header extends Component{
     }
 }
 
-export default withStyles(styles)(Header)
+export default withStyles(styles)(Header); 

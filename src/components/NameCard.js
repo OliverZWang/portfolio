@@ -12,8 +12,8 @@ const styles = themes => ({
         maxWidth: 345,
       },
       media: {
-        height: 400,
-        marginBottom: 6
+        height: 380,
+        marginBottom: 4
       },
 })
 
@@ -35,7 +35,7 @@ class NameCard extends Component{
                     Zichuan Wang
                   </Typography>
                   <Typography variant="body1" color="textSecondary" component="body">
-                    Senior at NYU majoring in Computer Science. Aspiring Software Developer. 
+                    Computer Science Student at NYU. <br/> Aspiring Software Developer. 
                   </Typography>
                 </CardContent>
               </CardActionArea>
