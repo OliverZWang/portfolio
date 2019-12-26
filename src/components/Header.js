@@ -44,7 +44,7 @@ class Header extends Component{
                     <div className={classes.container}>
                         <ul className={classes.wrapperUL}>
                             <li className = {classes.nav_item} key={"About Me"}>
-                                <Link className={classes.nav_link} to={`/about-me`}>About Me</Link>
+                                <Link className={classes.nav_link} to={`/`}>About Me</Link>
                             </li>
                             {/* <li className = {classes.nav_item} key={"Education"}>
                                 <Link className={classes.nav_link} to={`/education`}>Education</Link>
