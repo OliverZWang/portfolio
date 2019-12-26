@@ -10,8 +10,8 @@ function App() {
 		<Router>
 			<AppBar></AppBar>
 			<Switch>
-				<Route exact path="/"/>
-				<Route exact path="/about-me" component={AboutMe} />
+				{/* <Route exact path="/"/> */}
+				<Route exact path="/" component={AboutMe} />
 			</Switch>
 		</Router>
 		
