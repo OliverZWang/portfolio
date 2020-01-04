@@ -3,6 +3,8 @@ import './App.css';
 import AppBar from './components/Header'; 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AboutMe from './components/AboutMe'; 
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
 	return (
@@ -12,6 +14,8 @@ function App() {
 			<Switch>
 				{/* <Route exact path="/"/> */}
 				<Route exact path="/" component={AboutMe} />
+				<Route exact path="/projects" component={Projects}/>
+				<Route exact path="/contact" component={Contact}/>
 			</Switch>
 		</Router>
 		

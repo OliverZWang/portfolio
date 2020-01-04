@@ -58,7 +58,7 @@ class Education extends Component{
                     Description="Accelerated Bachelor's-Master's program in Computer Science. "
                     Link="https://www.nyu.edu/"
                     ></EducationCard>
-                    
+
                 <Expension
                 heading="Coursework"
                 text={this.state.courses}></Expension>
@@ -68,7 +68,7 @@ class Education extends Component{
                     Image="./efa.png"
                     Title="EF Academy"
                     Date="May 2017 - December 2021"
-                    Description="Accelerated Bachelor's-Master's program in Computer Science. "
+                    Description="International Baccalaureate Curriculum"
                     Link="https://www.ef.edu/academy/campuses/new-york/"
                     ></EducationCard>
                 

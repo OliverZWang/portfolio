@@ -7,7 +7,7 @@ const styles = theme => ({
     nav: {
         background: "#121212",
         // boxShadow: "none",
-        marginBottom: "15px",
+        // marginBottom: "15px",
     },
     container: {
         textAlign: "center"

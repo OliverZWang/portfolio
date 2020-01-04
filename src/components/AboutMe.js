@@ -4,8 +4,9 @@ import Grid from '@material-ui/core/Grid'
 import Container from '@material-ui/core/Container';
 import NameCard from './NameCard'; 
 import Bio from './Bio';
-import Skills from './Skills'
-import Education from './Education'
+import Skills from './Skills'; 
+import Education from './Education';
+import Footer from './Footer'; 
 
 
 
@@ -45,8 +46,9 @@ class AboutMe extends Component{
 
             <Skills></Skills>
             <Education></Education>
-
+            <Footer></Footer>
             </Container>
+            
             
             
         )
