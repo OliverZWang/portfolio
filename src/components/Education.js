@@ -55,7 +55,8 @@ class Education extends Component{
                     Image="./nyu_logo.jpg"
                     Title="New York Univeristy"
                     Date="May 2017 - December 2021"
-                    Description="Accelerated Bachelor's-Master's program in Computer Science. "
+                    Location="New York, New York"
+                    Description="Accelerated Bachelor's-Master's program in Computer Science "
                     Link="https://www.nyu.edu/"
                     ></EducationCard>
 
@@ -68,6 +69,7 @@ class Education extends Component{
                     Image="./efa.png"
                     Title="EF Academy"
                     Date="May 2017 - December 2021"
+                    Location="Thornwood, New York"
                     Description="International Baccalaureate Curriculum"
                     Link="https://www.ef.edu/academy/campuses/new-york/"
                     ></EducationCard>

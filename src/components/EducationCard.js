@@ -18,6 +18,7 @@ const styles = themes => ({
         },
     cardMedia: {
         width: 300,
+        height: 140
         },
 
     CardContent: {
@@ -46,6 +47,9 @@ class EducationCard extends Component{
                             </Typography>
                             <Typography align="left" variant="body1" color="textSecondary">
                                 {this.props.Date}
+                            </Typography>
+                            <Typography align="left" variant="body1" color="textSecondary">
+                                {this.props.Location}
                             </Typography>
                             <Typography aligh="left" variant="body1" paragraph>
                                 {this.props.Description}

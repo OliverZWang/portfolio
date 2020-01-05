@@ -32,10 +32,10 @@ class NameCard extends Component{
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h4" component="h3">
-                    Zichuan Wang
+                    Oliver Z. Wang
                   </Typography>
                   <Typography variant="body1" color="textSecondary" component="body">
-                    Computer Science Student at NYU. <br/> Aspiring Software Developer. 
+                    Computer Science Student at NYU <br/> Aspiring Software Developer 
                   </Typography>
                 </CardContent>
               </CardActionArea>
