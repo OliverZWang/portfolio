@@ -68,7 +68,7 @@ class Education extends Component{
                 <EducationCard
                     Image="./efa.png"
                     Title="EF Academy"
-                    Date="May 2017 - December 2021"
+                    Date="September 2015 - May 2017"
                     Location="Thornwood, New York"
                     Description="International Baccalaureate Curriculum"
                     Link="https://www.ef.edu/academy/campuses/new-york/"
