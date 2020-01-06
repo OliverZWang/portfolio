@@ -55,10 +55,15 @@ export default function Contact(props) {
               Contact
             </Typography>
             <Typography variant="h5" color="inherit" paragraph>
-              Email:  zw1400 _at_ nyu _dot_edu
+              zw1400@nyu.edu
             </Typography>
-            <Link color="inherit" variant="h5" href="https://www.linkedin.com/in/zichuan-wang-4433bb13a/">
-               LinkedIn Profile
+            <Link color="inherit" variant="h5" href="https://www.linkedin.com/in/oliver-z-wang/">
+               LinkedIn
+            </Link>
+            <Typography variant="h5" color="inherit" paragraph>
+            </Typography>
+            <Link color="inherit" variant="h5" href="https://github.com/AnonymousUserOliver">
+               Github
             </Link>
             
           </div>

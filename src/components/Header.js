@@ -16,8 +16,8 @@ const styles = theme => ({
         listStyleType: "none",
         float: "left",
         margin: "30px",
-        marginRight: "0px",
-        marginLeft: "25px"
+        marginRight: "12.5px",
+        marginLeft: "12.5px"
     },
     nav_link: {
         textTransform: "uppercase",
